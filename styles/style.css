@@ -60,6 +60,8 @@ nav {
 
 .nav-link > ul {
   display: flex;
+  align-items: center;
+  margin-top: 12px;
 }
 .nav-link li {
   list-style: none;
@@ -68,7 +70,13 @@ nav {
   font-size: 18px;
   font-weight: 700;
 }
-.nav-link-home {
+.nav-link a {
+  text-decoration: none;
+  color: #424247;
+  font-size: 18px;
+  font-weight: 400;
+}
+.nav-link-home a {
   color: #ff5400;
 }
 
