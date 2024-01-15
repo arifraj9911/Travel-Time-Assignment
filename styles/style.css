@@ -468,6 +468,7 @@ footer > hr {
   /* *{
     margin: auto 8px;
   } */
+  
 
   header,
   main {
@@ -665,7 +666,7 @@ footer > hr {
   /* footer */
   footer {
     height: 350px;
-    max-width: 375px;
+    width: auto;
     margin: 0;
   }
   footer > hr {
