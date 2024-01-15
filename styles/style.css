@@ -5,6 +5,7 @@
 
 * {
   font-family: "Mulish", sans-serif;
+  margin: 0;
 }
 
 header,
@@ -202,7 +203,7 @@ span {
   font-size: 24px;
   font-weight: 800;
   margin-top: 32px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 .card-description {
   color: #5a5a5d;
@@ -227,7 +228,7 @@ span {
   color: #131318;
   font-size: 24px;
   font-weight: 800;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   margin-top: 0;
 }
 .newsletter-description {
@@ -290,4 +291,53 @@ span {
   font-size: 32px;
   font-weight: 800;
   margin-top: 0;
+}
+
+/* footer styles */
+footer {
+  background: rgba(19, 19, 24, 0.05);
+  height: 500px;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+footer > hr {
+  width: 872px;
+  height: 1px;
+  margin: 50px auto;
+  background: rgba(19, 19, 24, 0.1);
+}
+.footer-title {
+  padding-top: 110px;
+  margin-bottom: 24px;
+  color: #131318;
+  font-size: 32px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-title > img {
+  margin-right: 16px;
+}
+.footer-travel-text {
+  color: #ff5400;
+  font-size: 32px;
+  font-weight: 800;
+}
+.footer-description {
+  color: #5a5a5d;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  width: 769px;
+  margin: 0 auto 33px;
+}
+.footer-text {
+  color: #131318;
+  font-size: 16px;
+  font-weight: 300;
+}
+.footer-icon > img {
+  margin-right: 20px;
 }
