@@ -38,6 +38,7 @@ main {
   height: 500px;
   border-radius: 16px;
   margin-top: 50px;
+  margin-bottom: 100px;
   text-align: center;
   /* padding-top: 106px; */
 }
@@ -85,4 +86,34 @@ main {
 #when-field,
 #select-type-field:focus {
   outline: none;
+}
+
+/* Popular Tour Styles */
+.popular-tour {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular-tour-container {
+  width: 530px;
+}
+.popular-tour-title {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.popular-tour-description > span,
+li,
+span {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 24px;
+}
+.popular-tour-btn {
+  margin-top: 32px;
+}
+.popular-tour-btn > button {
+  font-size: 20px;
 }
