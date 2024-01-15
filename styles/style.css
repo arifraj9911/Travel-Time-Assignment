@@ -13,6 +13,13 @@ main {
   margin: 0 auto;
 }
 
+.title {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
 .btn-style {
   width: 174px;
   height: 52px;
@@ -98,11 +105,11 @@ main {
 .popular-tour-container {
   width: 530px;
 }
-.popular-tour-title {
+/* .popular-tour-title {
   color: #131318;
   font-size: 40px;
   font-weight: 800;
-}
+} */
 
 .popular-tour-description > span,
 li,
@@ -122,13 +129,15 @@ span {
 /* Destination styles  */
 .destination-container {
   text-align: center;
+  margin-bottom: 100px;
 }
-.destination-title {
+/* .destination-title {
   color: #131318;
   font-size: 40px;
   font-weight: 800;
   margin-bottom: 24px;
-}
+} */
+
 .destination-description {
   color: rgba(19, 19, 24, 0.7);
   font-size: 16px;
@@ -148,4 +157,56 @@ span {
 .destination-images-row-three {
   display: flex;
   gap: 24px;
+}
+
+/* Choose Us Style */
+.choose-us-container {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.choose-us-description {
+  width: 643px;
+  margin: auto;
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+.choose-us-card {
+  text-align: left;
+  margin-top: 48px;
+}
+.card-row-one {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.card-row-two {
+  width: 573px;
+  margin: 24px auto 24px;
+}
+.card-hotels,
+.card-price {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 32px;
+}
+.card-service {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 32px;
+}
+.card-title {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 32px;
+  margin-bottom: 0px;
+}
+.card-description {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  width: 486px;
 }
