@@ -210,3 +210,84 @@ span {
   font-weight: 400;
   width: 486px;
 }
+
+/* Newsletter Styles */
+.newsletter-container {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.newsletter-content {
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  padding: 40px;
+}
+.newsletter-title {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.newsletter-description {
+  color: #5a5a5d;
+  width: 350px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.newsletter-content > hr {
+  margin-bottom: 24px;
+}
+.newsletter-content > button {
+  width: 100%;
+  font-size: 20px;
+}
+
+#newsletter-text,
+#newsletter-email {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  padding-left: 16px;
+  border: none;
+  font-size: 16px;
+}
+#newsletter-text,
+#newsletter-email:focus {
+  outline: none;
+}
+
+.newsletter-image {
+  position: relative;
+}
+.newsletter-travel-discount {
+  border-radius: 16px;
+  background: #ff5400;
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  position: absolute;
+  right: 0;
+  top: 255px;
+  left: 342px;
+  text-align: center;
+}
+.newsletter-travel-discount > h5 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+.newsletter-travel-discount > h4 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+  margin-top: 0;
+}
