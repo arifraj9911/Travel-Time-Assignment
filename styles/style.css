@@ -38,10 +38,11 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin-top: 52px;
+  margin-bottom: 24px;
 }
 .nav-title {
   /* padding-top: 110px; */
-  margin-bottom: 24px;
+
   color: #131318;
   font-size: 32px;
   font-weight: 800;
@@ -58,10 +59,14 @@ nav {
   font-weight: 800;
 }
 
+.nav-icon {
+  display: none;
+}
+
 .nav-link > ul {
   display: flex;
   align-items: center;
-  margin-top: 12px;
+  margin-top: 40px;
 }
 .nav-link li {
   list-style: none;
@@ -410,6 +415,7 @@ span {
 footer {
   background: rgba(19, 19, 24, 0.05);
   height: 500px;
+  width: 100%;
   display: block;
   margin: auto;
   text-align: center;
@@ -453,4 +459,232 @@ footer > hr {
 }
 .footer-icon > img {
   margin-right: 20px;
+}
+
+/* ----------Responsive Styles---------- */
+
+/* For Small Device */
+@media screen and (max-width: 600px) {
+  /* *{
+    margin: auto 8px;
+  } */
+
+  header,
+  main {
+    max-width: 335px;
+    margin: 0 20px;
+  }
+
+  .title {
+    font-size: 20px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  /* navbar */
+  header {
+    max-width: 335px;
+  }
+  .nav-link {
+    display: none;
+  }
+  .nav-icon {
+    display: block;
+  }
+  .nav-icon > img {
+    width: 24px;
+  }
+
+  .nav-title {
+    margin-bottom: 0;
+  }
+
+  .nav-title,
+  .nav-travel-text {
+    font-size: 22px;
+  }
+  .nav-title > img {
+    width: 28px;
+    margin-right: 14px;
+  }
+
+  /* banner responsive design */
+  .banner {
+    width: 335px;
+    height: 483px;
+    margin-top: 17px;
+    margin-bottom: 24px;
+  }
+  .banner-title {
+    font-size: 22px;
+    padding-top: 32px;
+  }
+  .banner-description {
+    font-size: 14px;
+    width: 304px;
+    font-weight: 200;
+  }
+  .banner-input-field {
+    flex-direction: column;
+    width: 287px;
+    height: 288px;
+    margin-top: 32px;
+  }
+  #where-go-field {
+    width: 240px;
+  }
+
+  #when-field,
+  #select-type-field {
+    width: 255px;
+  }
+  .banner-input-field > button {
+    width: 90%;
+  }
+
+  /* popular tour responsive */
+  .popular-tour {
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+  .popular-tour-container {
+    width: 335px;
+  }
+  .popular-tour > img {
+    width: 335px;
+    height: 342px;
+  }
+  .popular-tour-title {
+    text-align: left;
+  }
+  .popular-tour-description > span,
+  li,
+  span {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  /* destination */
+  .destination-container {
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .destination-description {
+    width: 315px;
+    font-size: 14px;
+    margin: 0 0 16px 15px;
+  }
+  .destination-images-row-one,
+  .destination-images-row-two,
+  .destination-images-row-three {
+    flex-direction: column;
+  }
+
+  .destination-image-maldives,
+  .destination-image-bandarban,
+  .destination-image-bangladesh,
+  .destination-image-indonesia,
+  .destination-image-kashmir,
+  .destination-image-north-america,
+  .destination-image-srilanka {
+    width: 335px;
+  }
+
+  /* Choose Us */
+  .choose-us-container {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .choose-us-description {
+    width: 315px;
+    font-size: 14px;
+    margin: 0 0 0 15px;
+  }
+  .choose-us-card {
+    margin-top: 16px;
+  }
+  .card-row-one {
+    grid-template-columns: repeat(1, 335px);
+  }
+  .card-row-two {
+    width: 335px;
+    margin: 24px 0 0;
+  }
+  .card-title {
+    font-size: 20px;
+  }
+  .card-description {
+    width: 271px;
+    height: 120px;
+    font-size: 14px;
+  }
+
+  /* newsletter */
+  .newsletter-container {
+    flex-direction: column;
+    width: 335px;
+    margin-bottom: 24px;
+  }
+  .newsletter-content {
+    padding: 10px;
+  }
+  .newsletter-title {
+    font-size: 20px;
+  }
+  .newsletter-description {
+    width: 270px;
+  }
+  #newsletter-text,
+  #newsletter-email {
+    width: 280px;
+  }
+  .newsletter-content > button {
+    width: 95%;
+  }
+
+  .newsletter-image > img {
+    width: 335px;
+    height: 300px;
+  }
+  .newsletter-travel-discount {
+    width: 214px;
+    height: 80px;
+    right: 0;
+    top: 190px;
+    left: 120px;
+  }
+  .newsletter-travel-discount > h5 {
+    font-size: 15px;
+  }
+  .newsletter-travel-discount > h4 {
+    font-size: 21px;
+  }
+
+  /* footer */
+  footer {
+    height: 350px;
+    max-width: 375px;
+    margin: 0;
+  }
+  footer > hr {
+    width: auto;
+    margin: 30px auto;
+  }
+  .footer-title {
+    padding-top: 33px;
+  }
+  .footer-title,
+  .footer-travel-text {
+    font-size: 22px;
+  }
+  .footer-title > img {
+    width: 28px;
+    margin-right: 14px;
+  }
+  .footer-description {
+    width: 287px;
+    font-size: 14px;
+  }
 }
