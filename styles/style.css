@@ -168,6 +168,9 @@ span {
 .popular-tour-btn > button {
   font-size: 20px;
 }
+.popular-tour > img {
+  margin-left: 48px;
+}
 
 /* Destination styles  */
 .destination-container {
@@ -524,7 +527,8 @@ footer > hr {
     gap: 24px;
     margin-bottom: 24px;
   }
-  .popular-tour-container {
+  .popular-tour > img {
+    margin-left: 0;
   }
   .popular-tour > img {
     width: 100%;
@@ -612,7 +616,7 @@ footer > hr {
     width: 90%;
   }
   .newsletter-content > button {
-    width: 94%;
+    width: 95%;
   }
 
   .newsletter-image > img {
