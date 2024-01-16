@@ -41,8 +41,6 @@ nav {
   margin-bottom: 24px;
 }
 .nav-title {
-  /* padding-top: 110px; */
-
   color: #131318;
   font-size: 32px;
   font-weight: 800;
@@ -101,7 +99,6 @@ nav {
   margin-top: 50px;
   margin-bottom: 100px;
   text-align: center;
-  /* padding-top: 106px; */
 }
 
 .banner-title {
@@ -156,9 +153,6 @@ nav {
   align-items: center;
   margin-bottom: 100px;
 }
-.popular-tour-container {
-  width: 530px;
-}
 
 .popular-tour-description > span,
 li,
@@ -185,14 +179,13 @@ span {
   color: rgba(19, 19, 24, 0.7);
   font-size: 16px;
   font-weight: 400;
-  width: 643px;
   margin: auto auto 48px;
 }
 
 .destination-background-image {
   border-radius: 16px;
   height: 300px;
-  width: 573px;
+  width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -236,7 +229,6 @@ span {
       rgba(19, 19, 24, 0.2) 100%
     ),
     url("../Images/Rectangle\ 6.png");
-  width: 374px;
 }
 .destination-image-north-america {
   background-image: linear-gradient(
@@ -245,7 +237,6 @@ span {
       rgba(19, 19, 24, 0.2) 100%
     ),
     url("../Images/Rectangle\ 7.png");
-  width: 474px;
 }
 .destination-image-kashmir {
   background-image: linear-gradient(
@@ -254,7 +245,6 @@ span {
       rgba(19, 19, 24, 0.2) 100%
     ),
     url("../Images/Rectangle\ 9.png");
-  width: 274px;
 }
 
 .destination-images-row-three {
@@ -284,8 +274,6 @@ span {
   margin-bottom: 100px;
 }
 .choose-us-description {
-  width: 643px;
-  margin: auto;
   color: rgba(19, 19, 24, 0.7);
   font-size: 16px;
   font-weight: 400;
@@ -351,7 +339,6 @@ span {
 }
 .newsletter-description {
   color: #5a5a5d;
-  width: 350px;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 24px;
@@ -369,7 +356,7 @@ span {
   display: block;
   margin-top: 16px;
   margin-bottom: 16px;
-  width: 393px;
+  width: 100%;
   height: 52px;
   border-radius: 8px;
   background: rgba(19, 19, 24, 0.05);
@@ -388,13 +375,13 @@ span {
 .newsletter-travel-discount {
   border-radius: 16px;
   background: #ff5400;
-  width: 324px;
+  width: 50%;
   height: 120px;
   transform: rotate(-19.628deg);
   position: absolute;
   right: 0;
   top: 255px;
-  left: 342px;
+  left: 325px;
   text-align: center;
 }
 .newsletter-travel-discount > h5 {
@@ -415,8 +402,6 @@ span {
 footer {
   background: rgba(19, 19, 24, 0.05);
   height: 500px;
-  width: 100%;
-  display: block;
   margin: auto;
   text-align: center;
 }
@@ -449,7 +434,6 @@ footer > hr {
   text-align: center;
   font-size: 16px;
   font-weight: 400;
-  width: 769px;
   margin: 0 auto 33px;
 }
 .footer-text {
@@ -465,15 +449,9 @@ footer > hr {
 
 /* For Small Device */
 @media screen and (max-width: 600px) {
-  /* *{
-    margin: auto 8px;
-  } */
-  
-
   header,
   main {
-    max-width: 335px;
-    margin: 0 20px;
+    width: 90%;
   }
 
   .title {
@@ -483,9 +461,6 @@ footer > hr {
   }
 
   /* navbar */
-  header {
-    max-width: 335px;
-  }
   .nav-link {
     display: none;
   }
@@ -511,7 +486,6 @@ footer > hr {
 
   /* banner responsive design */
   .banner {
-    width: 335px;
     height: 483px;
     margin-top: 17px;
     margin-bottom: 24px;
@@ -522,22 +496,22 @@ footer > hr {
   }
   .banner-description {
     font-size: 14px;
-    width: 304px;
+    width: 90%;
     font-weight: 200;
   }
   .banner-input-field {
     flex-direction: column;
-    width: 287px;
+    width: 90%;
     height: 288px;
     margin-top: 32px;
   }
   #where-go-field {
-    width: 240px;
+    width: 85%;
   }
 
   #when-field,
   #select-type-field {
-    width: 255px;
+    width: 90%;
   }
   .banner-input-field > button {
     width: 90%;
@@ -551,10 +525,9 @@ footer > hr {
     margin-bottom: 24px;
   }
   .popular-tour-container {
-    width: 335px;
   }
   .popular-tour > img {
-    width: 335px;
+    width: 100%;
     height: 342px;
   }
   .popular-tour-title {
@@ -573,7 +546,6 @@ footer > hr {
     text-align: center;
   }
   .destination-description {
-    width: 315px;
     font-size: 14px;
     margin: 0 0 16px 15px;
   }
@@ -590,7 +562,7 @@ footer > hr {
   .destination-image-kashmir,
   .destination-image-north-america,
   .destination-image-srilanka {
-    width: 335px;
+    width: 100%;
   }
 
   /* Choose Us */
@@ -599,7 +571,6 @@ footer > hr {
     margin-bottom: 24px;
   }
   .choose-us-description {
-    width: 315px;
     font-size: 14px;
     margin: 0 0 0 15px;
   }
@@ -607,17 +578,17 @@ footer > hr {
     margin-top: 16px;
   }
   .card-row-one {
-    grid-template-columns: repeat(1, 335px);
+    grid-template-columns: repeat(1, 100%);
   }
   .card-row-two {
-    width: 335px;
+    width: 100%;
     margin: 24px 0 0;
   }
   .card-title {
     font-size: 20px;
   }
   .card-description {
-    width: 271px;
+    width: 100%;
     height: 120px;
     font-size: 14px;
   }
@@ -625,36 +596,35 @@ footer > hr {
   /* newsletter */
   .newsletter-container {
     flex-direction: column;
-    width: 335px;
+    width: 100%;
     margin-bottom: 24px;
   }
   .newsletter-content {
-    padding: 10px;
+    padding: 20px;
   }
   .newsletter-title {
     font-size: 20px;
   }
   .newsletter-description {
-    width: 270px;
   }
   #newsletter-text,
   #newsletter-email {
-    width: 280px;
+    width: 90%;
   }
   .newsletter-content > button {
-    width: 95%;
+    width: 94%;
   }
 
   .newsletter-image > img {
-    width: 335px;
+    width: 100%;
     height: 300px;
   }
   .newsletter-travel-discount {
     width: 214px;
     height: 80px;
-    right: 0;
     top: 190px;
-    left: 120px;
+    left: 160px;
+    display: none;
   }
   .newsletter-travel-discount > h5 {
     font-size: 15px;
@@ -666,7 +636,8 @@ footer > hr {
   /* footer */
   footer {
     height: 350px;
-    width: auto;
+    width: 100%;
+    display: block;
     margin: 0;
   }
   footer > hr {
