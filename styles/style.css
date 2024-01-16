@@ -321,6 +321,38 @@ span {
   width: 486px;
 }
 
+/* Feedback Section */
+.feedback-container {
+  margin-bottom: 100px;
+  text-align: center;
+}
+.feedback {
+  margin-top: 56px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 24px;
+}
+blockquote {
+  background-color: #f3f3f3;
+  border-left: 5px solid #ff5400;
+  padding: 28px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.feedback-image-name-container {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+.feedback-image-name-container > img {
+  border-radius: 50%;
+  margin-right: 12px;
+}
+.feedback-image-name-container > h2 {
+  line-height: 24px;
+}
+
 /* Newsletter Styles */
 .newsletter-container {
   display: flex;
@@ -595,6 +627,12 @@ footer > hr {
     width: 100%;
     height: 120px;
     font-size: 14px;
+  }
+
+  /* Feedback Style */
+  .feedback {
+    flex-direction: column;
+    gap: 72px;
   }
 
   /* newsletter */
